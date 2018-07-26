@@ -5,7 +5,7 @@
 $(document).ready(function(){
    $('header').find($('.owl-carousel')).owlCarousel({
     loop:true,
-  
+  lazyLoad:true,
     margin:0,
    animateOut:'fadeOut',
     responsiveClass:true,
@@ -33,7 +33,7 @@ $(document).ready(function(){
     
     $('.reference').find($('.owl-carousel')).owlCarousel({
     loop:true,
-
+  lazyLoad:true,
     margin:20,
  
     responsiveClass:true,
